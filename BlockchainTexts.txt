@@ -1,0 +1,13 @@
+echo "# blockchain" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/envs/blockchain.git
+git push -u origin main
+
+
+Smart contracts are digital contracts stored on a blockchain that are automatically executed when predetermined T&Cs are met.
+They are typically used to AUTOMATE the execution of an agreement so that all participants can be immediately certain of the outcome, 
+without any intermediary's involvement or time loss.
+They can also AUTOMATE a workflow, triggering the next action when conditions are met.

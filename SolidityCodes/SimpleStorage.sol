@@ -1,10 +1,9 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity >=0.6.0 <0.9.0;
+pragma solidity ^0.8.0;
 
 contract SimpleStorage {
 
-    uint256 favoriteNumber;
+    uint256 public favoriteNumber;
 
     // This is a comment!
     struct People {
@@ -19,7 +18,7 @@ contract SimpleStorage {
         favoriteNumber = _favoriteNumber;
     }
     
-    function retrieve() public view returns (uint256){
+    function retrieve() public view returns (uint256) {
         return favoriteNumber;
     }
 

@@ -5,6 +5,8 @@ pragma solidity >=0.6.0 <0.8.7;
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
 import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
 
+import "..";
+
 contract FundMe {
     
     using SafeMathChainlink for uint256;

@@ -15,7 +15,7 @@ contract FundMe {
     address[] public funders;
     address public owner;
     
-    constructor() public {
+    constructor() {
         owner = msg.sender;
     }
     
